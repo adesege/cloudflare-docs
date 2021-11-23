@@ -178,10 +178,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-analytics:
     runs-on: ubuntu-latest
@@ -197,10 +197,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-api:
     runs-on: ubuntu-latest
@@ -216,10 +216,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-api-security:
     runs-on: ubuntu-latest
@@ -235,10 +235,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-automatic-platform-optimization:
     runs-on: ubuntu-latest
@@ -254,10 +254,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-bots:
     runs-on: ubuntu-latest
@@ -273,10 +273,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-byoip:
     runs-on: ubuntu-latest
@@ -292,10 +292,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-client-ip-geolocation:
     runs-on: ubuntu-latest
@@ -311,10 +311,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-cache:
     runs-on: ubuntu-latest
@@ -330,10 +330,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-cloudflare-one:
     runs-on: ubuntu-latest
@@ -349,10 +349,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-dns:
     runs-on: ubuntu-latest
@@ -406,10 +406,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-docs-engine:
     runs-on: ubuntu-latest
@@ -425,10 +425,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-email-routing:
     runs-on: ubuntu-latest
@@ -463,10 +463,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-firewall:
     runs-on: ubuntu-latest
@@ -482,10 +482,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
   build-fundamentals:
     runs-on: ubuntu-latest
     needs: changes
@@ -500,10 +500,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-browser-isolation:
     runs-on: ubuntu-latest
@@ -519,10 +519,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-http3:
     runs-on: ubuntu-latest
@@ -538,10 +538,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-images:
     runs-on: ubuntu-latest
@@ -557,10 +557,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-load-balancing:
     runs-on: ubuntu-latest
@@ -576,10 +576,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-logs:
     runs-on: ubuntu-latest
@@ -595,10 +595,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-magic-firewall:
     runs-on: ubuntu-latest
@@ -614,10 +614,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-magic-transit:
     runs-on: ubuntu-latest
@@ -633,10 +633,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-magic-wan:
     runs-on: ubuntu-latest
@@ -652,10 +652,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-network-error-logging:
     runs-on: ubuntu-latest
@@ -671,10 +671,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-network-interconnect:
     runs-on: ubuntu-latest
@@ -690,10 +690,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-pages:
     runs-on: ubuntu-latest
@@ -709,10 +709,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-page-shield:
     runs-on: ubuntu-latest
@@ -728,10 +728,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-partners:
     runs-on: ubuntu-latest
@@ -747,10 +747,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-railgun:
     runs-on: ubuntu-latest
@@ -766,10 +766,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-randomness-beacon:
     runs-on: ubuntu-latest
@@ -785,10 +785,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-registrar:
     runs-on: ubuntu-latest
@@ -804,10 +804,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-rules:
     runs-on: ubuntu-latest
@@ -823,10 +823,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-ruleset-engine:
     runs-on: ubuntu-latest
@@ -842,10 +842,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-spectrum:
     runs-on: ubuntu-latest
@@ -861,10 +861,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-ssl:
     runs-on: ubuntu-latest
@@ -880,10 +880,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-stream:
     runs-on: ubuntu-latest
@@ -899,10 +899,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-tenant:
     runs-on: ubuntu-latest
@@ -918,10 +918,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-terraform:
     runs-on: ubuntu-latest
@@ -937,10 +937,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-time-services:
     runs-on: ubuntu-latest
@@ -956,10 +956,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-waf:
     runs-on: ubuntu-latest
@@ -975,10 +975,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-waiting-room:
     runs-on: ubuntu-latest
@@ -994,10 +994,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-warp-client:
     runs-on: ubuntu-latest
@@ -1013,10 +1013,10 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
 
   build-workers:
     runs-on: ubuntu-latest
@@ -1032,7 +1032,7 @@ jobs:
         with:
           node-version: 14.2.0
       - run: |
-          npm install
+          yarn install
           mkdir .docs
-          npm run ghactionsbootstrap
-          npm run build
+          yarn ghactionsbootstrap
+          yarn build
